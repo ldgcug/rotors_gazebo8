@@ -57,10 +57,13 @@ u16 + ros kinetic + gazebo8安装文档
 ### 4.搭建仿真环境
     （1）创建工作空间
     mkdir -p ~/catkin_ws/src
+    
     （2）clone文件
     cd 
     git clone https://github.com/ldgcug/rotors_gazebo8.git
+    
     （3）将下载的文件加拷贝到~/catkin_ws/src目录下（主要为：mav_comm、mavlink、mavros、rotors_simulator）
+    
     （4）编译环境
     cd ~/catkin_ws
     catkin build
